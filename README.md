@@ -12,4 +12,12 @@ RF_F6 feito
 RF_S1 feito
 RF_S2 feito em parte
 
+JOGAR O JOGO - INSTRUÇÕES
 
+- Deve ter baixado na sua máquina o Godot.
+- Baixar os arquivos contidos nesse repositório.
+- Colocar todos em uma pasta.
+- Abrir o Godot.
+- No Menu, clicar em Importar.
+- Escolher arquivo .godot da pasta que foi criada anteriormente.
+- No menu Superior Direito da plataforma tem um símbolo de 'Play', clicar nele.

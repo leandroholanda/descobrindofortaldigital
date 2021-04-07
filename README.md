@@ -14,7 +14,7 @@ Olívia Coelho da Silva (Idealizadora), Djacy Lima Araújo (Consultor).
 
 Requisitos feitos:
 
-RF-B1 : FEITO      - Carregamento do mapa
+RF-B1 : FEITO      - Carregamento do mapa<br/>
 RF-B2 : FEITO      - Carregamento das cartas
 RF-B3 : NAO FEITO  - Carregamento do jogo das bolas
 RF-B4 : FEITO      - Carregamento do Quiz

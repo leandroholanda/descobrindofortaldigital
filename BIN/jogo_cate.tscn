@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://scripts_quiz/cartas_cate.gd" type="Script" id=1]
+[ext_resource path="res://images/tela_do_jogo.png" type="Texture" id=2]
+[ext_resource path="res://voltar_mata_cat.gd" type="Script" id=3]
+
+[node name="jogo_cate" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.669497, 0.669497 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="cartas_cate" type="Button" parent="."]
+margin_left = 960.0
+margin_top = 43.0
+margin_right = 1243.0
+margin_bottom = 100.0
+flat = true
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="voltar_mata_cat" type="Button" parent="."]
+modulate = Color( 0.615686, 0.0823529, 0.0823529, 1 )
+anchor_right = 0.009
+anchor_bottom = 0.097
+margin_left = 37.0595
+margin_top = 80.227
+margin_right = 81.5395
+margin_bottom = 30.387
+text = "Voltar"
+flat = true
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="cartas_cate" to="cartas_cate" method="_on_cartas_cate_pressed"]
+[connection signal="pressed" from="voltar_mata_cat" to="voltar_mata_cat" method="_on_voltar_mata_cat_pressed"]

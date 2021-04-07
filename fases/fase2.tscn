@@ -1,7 +1,0 @@
-[gd_scene load_steps=2 format=2]
-
-[ext_resource path="res://fases/button.tscn" type="PackedScene" id=1]
-
-[node name="fase2" instance=ExtResource( 1 )]
-modulate = Color( 0.054902, 0.054902, 0.054902, 1 )
-self_modulate = Color( 0.0745098, 0.0745098, 0.0745098, 1 )

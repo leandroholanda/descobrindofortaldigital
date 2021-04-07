@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scripts_quiz/voltar_cartas_ira.gd" type="Script" id=1]
+[ext_resource path="res://images/tela_errou.png" type="Texture" id=2]
+
+[node name="errou_ira" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.666354, 0.666354 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="voltar_cartas_ira" type="Button" parent="."]
+margin_left = 602.0
+margin_top = 381.0
+margin_right = 993.0
+margin_bottom = 434.0
+flat = true
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="voltar_cartas_ira" to="voltar_cartas_ira" method="_on_voltar_cartas_ira_pressed"]

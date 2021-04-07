@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scripts_quiz/voltar_mapa_mara.gd" type="Script" id=1]
+[ext_resource path="res://images/acertou_ira.png" type="Texture" id=2]
+
+[node name="acertou_cate" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.668427, 0.668427 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="voltar_mapa_mara" type="Button" parent="."]
+anchor_right = 0.009
+anchor_bottom = 0.05
+margin_left = 659.0
+margin_top = 380.0
+margin_right = 920.48
+margin_bottom = 407.0
+flat = true
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="voltar_mapa_mara" to="voltar_mapa_mara" method="_on_voltar_mapa_mara_pressed"]

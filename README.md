@@ -1,14 +1,14 @@
 # descobrindofortaldigital
-Projeto: Descobrindo Fortaleza Digital<br/>
-Descrição: Adaptação de um jogo físico educativo para o digital chamado "Descobrindo Fortaleza", em que o jogador dever aprender sobre os pontos turisticos e históricos de Fortaleza para depois ser testado seus conhecimentos através de um Quiz.
+**Projeto**: Descobrindo Fortaleza Digital<br/>
+**Descrição**: Adaptação de um jogo físico educativo para o digital chamado "Descobrindo Fortaleza", em que o jogador dever aprender sobre os pontos turisticos e históricos de Fortaleza para depois ser testado seus conhecimentos através de um Quiz.
 
-Equipe Le'Ravi:
+**Equipe Le'Ravi**:
 Ademar Lima, Alana Campelo, Diego David, Hélio Cláudo e Leandro Holanda
 
-Cliente:
+**Cliente**:
 Olívia Coelho da Silva (Idealizadora), Djacy Lima Araújo (Consultor).
 
-Requisitos feitos:
+**Requisitos feitos**:
 
 RF-B1 : FEITO      - Carregamento do mapa<br/>
 RF-B2 : FEITO      - Carregamento das cartas<br/>
@@ -38,7 +38,7 @@ RF-NF4 : NAO FEITO - Dicas dadas pelo personagem (O personagem só interage com 
 RF-NF5 : FEITO     - Reconhecer os elementos e informações<br/>
 RF-NF6 : NÃO FEITO - HUD jogo bolas<br/>
 
-JOGAR O JOGO - INSTRUÇÕES
+**JOGAR O JOGO - INSTRUÇÕES**
 
 - Deve ter baixado na sua máquina o Godot.
 - Baixar os arquivos contidos nesse repositório.

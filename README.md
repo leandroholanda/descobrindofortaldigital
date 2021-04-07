@@ -1,5 +1,5 @@
-# descobrindofortaldigital
-**Projeto**: Descobrindo Fortaleza Digital<br/>
+# Projeto Descobrindo Fortaleza Digital
+
 **Descrição**: Adaptação de um jogo físico educativo para o digital chamado "Descobrindo Fortaleza", em que o jogador dever aprender sobre os pontos turisticos e históricos de Fortaleza para depois ser testado seus conhecimentos através de um Quiz.
 
 **Equipe Le'Ravi**:
@@ -40,10 +40,16 @@ RF-NF6 : NÃO FEITO - HUD jogo bolas<br/>
 
 **JOGAR O JOGO - INSTRUÇÕES**
 
-- Deve ter baixado na sua máquina o Godot.
-- Baixar os arquivos contidos nesse repositório.
-- Colocar todos em uma pasta.
-- Abrir o Godot.
+- Deve ter baixado e instalado na sua máquina o Godot, encontra-se em: https://godotengine.org/download/windows.
+- Baixar os arquivos contidos nesse repositório.<br/>
+
+**Abrir o jogo pelo .EXE**:<br/>
+
+- Acessar a pasta pasta BIN, dentro dela executar o arquivo "descobrindofortaldigital.exe".<br/>
+
+**Abrir o jogo pelo GODOT**:<br/>
+- Colocar todos os arquivos em uma pasta, baixando ou clonando o repositório.
+- Abrir aplicação do Godot.
 - No Menu, clicar em Importar.
 - Escolher arquivo .godot da pasta que foi criada anteriormente.
 - No menu Superior Direito da plataforma tem um símbolo de 'Play', clicar nele.

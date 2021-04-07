@@ -1,6 +1,6 @@
 # descobrindofortaldigital
-Projeto: Descobrindo Fortaleza Digital
-Adaptação de um jogo físico educativo para o digital chamado "Descobrindo Fortaleza", em que o jogador dever aprender sobre os pontos turisticos e históricos de Fortaleza para depois ser testado seus conhecimentos através de um Quiz.
+Projeto: Descobrindo Fortaleza Digital<br/>
+Descrição: Adaptação de um jogo físico educativo para o digital chamado "Descobrindo Fortaleza", em que o jogador dever aprender sobre os pontos turisticos e históricos de Fortaleza para depois ser testado seus conhecimentos através de um Quiz.
 
 Equipe Le'Ravi:
 Ademar Lima, Alana Campelo, Diego David, Hélio Cláudo e Leandro Holanda

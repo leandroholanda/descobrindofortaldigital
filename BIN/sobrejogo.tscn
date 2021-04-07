@@ -1,0 +1,30 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://images/sobre_jogo.png" type="Texture" id=1]
+[ext_resource path="res://voltarmenu.gd" type="Script" id=2]
+
+[node name="sobrejogo" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.668493, 0.668493 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="voltarmenu" type="Button" parent="."]
+anchor_right = 0.009
+anchor_bottom = 0.028
+margin_left = 483.0
+margin_top = 638.0
+margin_right = 770.48
+margin_bottom = 673.84
+flat = true
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="voltarmenu" to="voltarmenu" method="_on_voltarmenu_pressed"]

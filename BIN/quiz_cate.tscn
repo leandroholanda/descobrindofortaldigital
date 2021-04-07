@@ -1,0 +1,78 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://scripts_quiz/option2cate.gd" type="Script" id=1]
+[ext_resource path="res://scripts_quiz/option3cate.gd" type="Script" id=2]
+[ext_resource path="res://images/quiz_cate.png" type="Texture" id=3]
+[ext_resource path="res://scripts_quiz/option1cate.gd" type="Script" id=4]
+[ext_resource path="res://scripts_quiz/option4cate.gd" type="Script" id=5]
+[ext_resource path="res://scripts_quiz/option5cate.gd" type="Script" id=6]
+
+[node name="quiz_cate" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.667462, 0.667462 )
+texture = ExtResource( 3 )
+centered = false
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 412.0
+margin_top = 259.0
+margin_right = 543.0
+margin_bottom = 561.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="option1cate" type="Button" parent="VBoxContainer"]
+margin_right = 131.0
+margin_bottom = 57.0
+size_flags_vertical = 3
+size_flags_stretch_ratio = 1.72
+flat = true
+script = ExtResource( 4 )
+
+[node name="option2cate" type="Button" parent="VBoxContainer"]
+margin_top = 61.0
+margin_right = 131.0
+margin_bottom = 118.0
+size_flags_vertical = 3
+size_flags_stretch_ratio = 1.72
+flat = true
+script = ExtResource( 1 )
+
+[node name="option3cate" type="Button" parent="VBoxContainer"]
+margin_top = 122.0
+margin_right = 131.0
+margin_bottom = 179.0
+size_flags_vertical = 3
+size_flags_stretch_ratio = 1.72
+flat = true
+script = ExtResource( 2 )
+
+[node name="option4cate" type="Button" parent="VBoxContainer"]
+margin_top = 183.0
+margin_right = 131.0
+margin_bottom = 240.0
+size_flags_vertical = 3
+size_flags_stretch_ratio = 1.72
+flat = true
+script = ExtResource( 5 )
+
+[node name="option5cate" type="Button" parent="VBoxContainer"]
+margin_top = 244.0
+margin_right = 131.0
+margin_bottom = 302.0
+size_flags_vertical = 3
+size_flags_stretch_ratio = 1.72
+flat = true
+script = ExtResource( 6 )
+[connection signal="pressed" from="VBoxContainer/option1cate" to="VBoxContainer/option1cate" method="_on_option1cate_pressed"]
+[connection signal="pressed" from="VBoxContainer/option2cate" to="VBoxContainer/option2cate" method="_on_option2cate_pressed"]
+[connection signal="pressed" from="VBoxContainer/option3cate" to="VBoxContainer/option3cate" method="_on_option3cate_pressed"]
+[connection signal="pressed" from="VBoxContainer/option4cate" to="VBoxContainer/option4cate" method="_on_option4cate_pressed"]
+[connection signal="pressed" from="VBoxContainer/option5cate" to="VBoxContainer/option5cate" method="_on_option5cate_pressed"]

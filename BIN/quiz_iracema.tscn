@@ -1,0 +1,75 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://images/pergunta_iracema.png" type="Texture" id=1]
+[ext_resource path="res://scripts_quiz/option1ira.gd" type="Script" id=2]
+[ext_resource path="res://scripts_quiz/option2ira.gd" type="Script" id=3]
+[ext_resource path="res://scripts_quiz/option4ira.gd" type="Script" id=4]
+[ext_resource path="res://scripts_quiz/option5ira.gd" type="Script" id=5]
+[ext_resource path="res://scripts_quiz/option3ira.gd" type="Script" id=6]
+
+[node name="quiz_iracema" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.667175, 0.667175 )
+texture = ExtResource( 1 )
+centered = false
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_right = 0.031
+anchor_bottom = 0.084
+margin_left = 406.0
+margin_top = 247.0
+margin_right = 665.32
+margin_bottom = 512.52
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="option1ira" type="Button" parent="VBoxContainer"]
+margin_right = 299.0
+margin_bottom = 62.0
+size_flags_vertical = 3
+flat = true
+script = ExtResource( 2 )
+
+[node name="option2ira" type="Button" parent="VBoxContainer"]
+margin_top = 66.0
+margin_right = 299.0
+margin_bottom = 128.0
+size_flags_vertical = 3
+flat = true
+script = ExtResource( 3 )
+
+[node name="option3ira" type="Button" parent="VBoxContainer"]
+margin_top = 132.0
+margin_right = 299.0
+margin_bottom = 194.0
+size_flags_vertical = 3
+flat = true
+script = ExtResource( 6 )
+
+[node name="option4ira" type="Button" parent="VBoxContainer"]
+margin_top = 198.0
+margin_right = 299.0
+margin_bottom = 260.0
+size_flags_vertical = 3
+flat = true
+script = ExtResource( 4 )
+
+[node name="option5ira" type="Button" parent="VBoxContainer"]
+margin_top = 264.0
+margin_right = 299.0
+margin_bottom = 326.0
+size_flags_vertical = 3
+flat = true
+script = ExtResource( 5 )
+[connection signal="pressed" from="VBoxContainer/option1ira" to="VBoxContainer/option1ira" method="_on_option1ira_pressed"]
+[connection signal="pressed" from="VBoxContainer/option2ira" to="VBoxContainer/option2ira" method="_on_option2ira_pressed"]
+[connection signal="pressed" from="VBoxContainer/option3ira" to="VBoxContainer/option3ira" method="_on_option3ira_pressed"]
+[connection signal="pressed" from="VBoxContainer/option4ira" to="VBoxContainer/option4ira" method="_on_option4ira_pressed"]
+[connection signal="pressed" from="VBoxContainer/option5ira" to="VBoxContainer/option5ira" method="_on_option5ira_pressed"]

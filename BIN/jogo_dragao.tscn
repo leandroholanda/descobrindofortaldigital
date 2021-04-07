@@ -1,0 +1,40 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://scripts_quiz/carta_dragao.gd" type="Script" id=1]
+[ext_resource path="res://images/tela_do_jogo.png" type="Texture" id=2]
+[ext_resource path="res://voltar_mapa_dra.gd" type="Script" id=3]
+
+[node name="jogo_dragao" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.666354, 0.666354 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="carta_dragao" type="Button" parent="."]
+margin_left = 962.993
+margin_top = 42.0
+margin_right = 1234.99
+margin_bottom = 98.0
+flat = true
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="voltar_mapa_dra" type="Button" parent="."]
+modulate = Color( 0.647059, 0.109804, 0.109804, 1 )
+margin_left = 42.0
+margin_top = 71.0
+margin_right = 123.0
+margin_bottom = 91.0
+text = "Voltar"
+flat = true
+script = ExtResource( 3 )
+[connection signal="pressed" from="carta_dragao" to="carta_dragao" method="_on_carta_dragao_pressed"]
+[connection signal="pressed" from="voltar_mapa_dra" to="voltar_mapa_dra" method="_on_voltar_mapa_dra_pressed"]
